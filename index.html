@@ -1,27 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>My Dark Souls Website</title>
   <style>
-    body{
-      margin:1em auto;
-      max-width:40em;
-      padding:0.62em;
-      font:1.2em/1.62 sans-serif;
+    body {
+      margin: 1em auto;
+      max-width: 40em;
+      padding: 0.62em;
+      font-family: sans-serif;
     }
-    h1,h2,h3 {
-      line-height:1.2;
+
+    h1,
+    h2,
+    h3 {
+      line-height: 1.2;
     }
-    @media print{
-      body{
-        max-width:none
+
+    @media print {
+      body {
+        max-width: none
       }
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: lightgrey;
+    }
+
+    thead th {
+      text-align: right;
+    }
+
+    thead th:first-child {
+      text-align: left;
+    }
+
+    tbody td {
+      text-align: right;
+    }
+
+    tbody td:first-child {
+      text-align: left;
     }
   </style>
 </head>
+
 <body>
   <h1>Welcome to Dark Souls</h1>
   <p>A consumable souls and their values if consumed directly or traded with Frampt.</p>
@@ -146,4 +176,5 @@
     </table>
   </div>
 </body>
+
 </html>
