@@ -30,8 +30,20 @@
       border-collapse: collapse;
     }
 
+    tbody tr:nth-child(odd) {
+      background-color: white;
+    }
+
     tbody tr:nth-child(even) {
       background-color: lightgrey;
+    }
+
+    .high {
+      color: green;
+    }
+
+    .low {
+      color: red;
     }
 
     thead th {
@@ -69,13 +81,13 @@
       <tbody>
         <tr>
           <td>Soul of a Lost Undead</td>
-          <td>200</td>
-          <td>500</td>
+          <td class="low">200</td>
+          <td class="high">500</td>
         </tr>
         <tr>
           <td>Large Soul of a Lost Undead</td>
-          <td>400</td>
-          <td>500</td>
+          <td class="low">400</td>
+          <td class="high">500</td>
         </tr>
         <tr>
           <td>Soul of a Nameless Soldier</td>
@@ -119,58 +131,58 @@
         </tr>
         <tr>
           <td>Soul of the Moonlight Butterfly</td>
-          <td>1,200</td>
-          <td>8,000</td>
+          <td class="low">1,200</td>
+          <td class="high">8,000</td>
         </tr>
         <tr>
           <td>Soul of Quelaag</td>
-          <td>8,000</td>
-          <td>10,000</td>
+          <td class="low">8,000</td>
+          <td class="high">10,000</td>
         </tr>
         <tr>
           <td>Core of an Iron Golem</td>
           <td>12,000</td>
-          <td>8,000</td>
+          <td class="low">8,000</td>
         </tr>
         <tr>
           <td>Soul of Gwyndolin</td>
-          <td>16,000</td>
-          <td>20,000</td>
+          <td class="low">16,000</td>
+          <td class="high">20,000</td>
         </tr>
         <tr>
           <td>Soul of Ornstein</td>
-          <td>12,000</td>
-          <td>8,000</td>
+          <td class="high">12,000</td>
+          <td class="low">8,000</td>
         </tr>
         <tr>
           <td>Soul of Smough</td>
-          <td>12,000</td>
-          <td>1</td>
+          <td class="high">12,000</td>
+          <td class="low">1</td>
         </tr>
         <tr>
           <td>Soul of (Great Wolf) Sif</td>
-          <td>16,000</td>
-          <td>4,000</td>
+          <td class="high">16,000</td>
+          <td class="low">4,000</td>
         </tr>
         <tr>
           <td>Soul of Gwyn, Lord of Cinder</td>
-          <td>20,000</td>
-          <td>40,000</td>
+          <td class="low">20,000</td>
+          <td class="high">40,000</td>
         </tr>
         <tr>
           <td>Guardian Soul</td>
-          <td>12,000</td>
-          <td>10,000</td>
+          <td class="high">12,000</td>
+          <td class="low">10,000</td>
         </tr>
         <tr>
           <td>Soul of Artorias</td>
-          <td>16,000</td>
-          <td>10,000</td>
+          <td class="high">16,000</td>
+          <td class="low">10,000</td>
         </tr>
         <tr>
           <td>Soul of Manus</td>
-          <td>18,000</td>
-          <td>10,000</td>
+          <td class="high">18,000</td>
+          <td class="low">10,000</td>
         </tr>
       </tbody>
     </table>
